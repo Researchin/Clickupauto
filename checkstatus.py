@@ -3,10 +3,8 @@ import requests
 # Set the API key and task ID
 api_key = "your_api_key"
 task_id = "task_id"
-
 # Set the API endpoint
 endpoint = f"https://api.clickup.com/api/v2/task/{task_id}"
-
 # Set the headers
 headers = {
     "Authorization": f"Token {api_key}",
